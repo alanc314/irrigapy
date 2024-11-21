@@ -4,4 +4,4 @@
 streamlit run irrigapy.py
 
 # Para rodar no navegador:
-``` https://irrigapy.streamlit.app/ ```
+https://irrigapy.streamlit.app/ 
