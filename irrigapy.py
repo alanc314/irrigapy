@@ -265,16 +265,16 @@ def infos_aba4():
 }
 
         
-            df = pd.DataFrame(dados)
-            
-            
-            st.dataframe(df, width = 1200, height= 600)  
-            
-            csv = df.to_csv(index=False, sep=";")
-            st.download_button(label = "Baixar tabela em CSV",
-                data = csv,
-                file_name = "dados_irrigaPy.csv",
-                mime = "text/csv")
+        df = pd.DataFrame(dados)
+        
+        
+        st.dataframe(df, width = 1200, height= 600)  
+        
+        csv = df.to_csv(index=False, sep=";")
+        st.download_button(label = "Baixar tabela em CSV",
+            data = csv,
+            file_name = "dados_irrigaPy.csv",
+            mime = "text/csv")
 
     else: 
         st.write("Por favor, insira todos os parâmetros necessários na aba 'Entrada dos Parâmetros' do Menu.")
