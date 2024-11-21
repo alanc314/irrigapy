@@ -1,12 +1,12 @@
 # IrrigaPy
 
-## **Executar Localmente**
+## **Executar localmente**
    ```bash
-   git clone https://github.com/alanc314/irrigapy.git
+   git clone https://github.com/alanc314/irrigapy.git ```
 ###
    ```bash
-   cd irrigapy
+   cd irrigapy ```
 ####
    ```bash
-   streamlit run irrigapy.py
+   streamlit run irrigapy.py ```
    
