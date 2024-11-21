@@ -141,10 +141,10 @@ def infos_aba3():
 
 def infos_aba4():
     st.subheader("Resultado do Dimensionamento")
-    chaves = ["largura", "comprimento", "area", "declividade_largura", "declividade_comprimento", "dist_moto_bomba", "declividade_moto_bomba", "ucc", "upmp", "ds", "vib", "cultura", "eto", "jornada_trab", "nome_aspersor", "dist_entre_aspersor", "dist_entre_linha", 
+    required_keys = ["largura", "comprimento", "area", "declividade_largura", "declividade_comprimento", "dist_moto_bomba", "declividade_moto_bomba", "ucc", "upmp", "ds", "vib", "cultura", "eto", "jornada_trab", "nome_aspersor", "dist_entre_aspersor", "dist_entre_linha", 
         "pressao_servico", "altura_aspersor", "vazao", "int_aplicacao", "z", "kc", "f"]
     
-    if all(chave in st.session_state for chave in chaves):
+    if all(keys in st.session_state for keys in required_keys):
         largura = st.session_state.largura
         comprimento = st.session_state.comprimento
         area = st.session_state.area
