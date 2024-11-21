@@ -202,7 +202,7 @@ def infos_aba4():
         
         vazao_total_simultanea_em_mm_por_seg = (num_linhas_irrigadas_simultaneas * (vazao_por_linha_lateral / 3600))
                                                 
-        diam_tubo_moto_bomba_centro = (1.030 * math.sqrt(vazao_total_simultanea_em_mm_por_seg) * 100
+        diam_tubo_moto_bomba_centro = (1.030 * math.sqrt(vazao_total_simultanea_em_mm_por_seg)) * 100
         
         hf_moto_bomba_centro = (10.641 * (vazao_total_simultanea_em_mm_por_seg ** 1.852) * dist_moto_bomba_centro) / ((140 ** 1.852) * (diam_tubo_moto_bomba_centro ** 4.871))
 
