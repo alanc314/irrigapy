@@ -16,7 +16,7 @@ def infos_aba3():
     
     comprimento = st.number_input("Qual o comprimento da área a ser irrigada em m?", min_value = 0.1)
     st.write("Considere o comprimento da área como o eixo de disposição da linha principal do sistema de irrigação.")
-    area = comprimento * largura / 10000
+    area = (comprimento * largura) / 10000
     st.write(f'A área a ser irrigada é de {area:.4f} ha.')
     
     declividade_largura = st.number_input("Qual a declividade ao longo da largura da área em %?", min_value = 0.0)
