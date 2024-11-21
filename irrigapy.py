@@ -4,7 +4,7 @@ import pandas as pd
 
 def infos_aba2():
     st.subheader("O App")
-    st.markdown("O IrrigaPY é um app criado na linguagem Python com foco nos cálculos de dimensionamento de sistema de irrigação por aspersão convencional. O objetivo do app é facilitar o dimensionamento desse sistema de maneira acessível e prática. Criado por Alan C F Fernandes e João Guilherme S Pedreira (2024) para a disciplina Introdução a Programação de Computadores Aplicada a Ciências Biológicas (CEN0336).")  
+    st.markdown("O IrrigaPy é um app criado na linguagem Python com foco nos cálculos de dimensionamento de sistema de irrigação por aspersão convencional. O objetivo do app é facilitar o dimensionamento desse sistema de maneira acessível e prática. Criado por Alan C F Fernandes e João Guilherme S Pedreira (2024) para a disciplina Introdução a Programação de Computadores Aplicada a Ciências Biológicas (CEN0336).")  
 
 def infos_aba3():
     st.subheader("Entrada dos Parâmetros")
