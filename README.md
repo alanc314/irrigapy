@@ -1,6 +1,6 @@
-# IrrigaPy
-# Para rodar o IrrigaPy em sua máquina, clone este diretório e rode no terminal:
-``` bash streamlit run irrigapy.py ```
+# # IrrigaPy
 
-# Para rodar no navegador:
-``` https://irrigapy.streamlit.app/ ```
+## **Executar Localmente**
+Clone este repositório:
+   ```bash
+   git clone 
